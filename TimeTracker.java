@@ -1,5 +1,5 @@
 //test comment
-import java.time.Duration;
+import java.tim.Duration;
 import java.time.Instant;
 import java.util.HashMap;
 import java.util.Map;
