@@ -27,7 +27,7 @@ public class TimeTracker {
             } else if (input.startsWith("start ")) {
                 String taskName = input.substring(6).trim();
                 if (taskName.isEmpty()) {
-                    System.out.println("Please specify a task name pop.");
+                    System.out.println("Please specify a task name.");
                 } else {
                     startTask(taskName);
                 }
