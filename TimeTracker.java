@@ -1,5 +1,5 @@
 //test comment
-import java.tim.Duration;
+import java.time.Duration;
 import java.time.Instant;
 import java.util.HashMap;
 import java.util.Map;
@@ -13,7 +13,7 @@ public class TimeTracker {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("=== Java Time Tracker ===");
-        System.out.println("Commands: start <task>, stop, report, exit");
+        System.out.println("Commands: start <task>, stop, report, exit, hello");
 
         while (true) {
             System.out.print("\n> ");
